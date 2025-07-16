@@ -37,3 +37,20 @@ console.log(p===s); // strict comparison
 console.log(p!=s);
 console.log(p!==s); //not equal value or not equal type
 
+//Post and pre increment and decrement operator
+
+let t=30;
+let r=12;
+let q= t++ + ++r;
+console.log(q);
+console.log(t);
+console.log(r);
+
+
+let i=50;
+let j=55;
+let k=i++ + ++j + i++ + ++j + --i;
+
+console.log(i);
+console.log(j);
+console.log(k);
