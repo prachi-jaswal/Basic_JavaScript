@@ -54,3 +54,23 @@ let k=i++ + ++j + i++ + ++j + --i;
 console.log(i);
 console.log(j);
 console.log(k);
+
+//conditional  operator
+let l =10 ? 10:50;
+console.log(l);
+
+let u=5 , v=10;
+
+let z= u++ >--v ?( u-- -v < u++ ? v++ +u : --v + u++ ): ++u + v-- - --v;
+console.log(u);
+console.log(v);
+console.log(z);
+
+//string operator
+let firstName="Prachi";
+let lastName="Jaswal";
+let fullName = firstName + lastName;
+
+console.log(fullName);
+
+// ?? operator it consider false value only null , undefined. 
